@@ -68,17 +68,25 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <section class="4u 6u(medium) 12u$(small)">
-                <h3>Contatti</h3>
-                <p>Ufficio Croazia<br>Ufficio Italia</p>
+            <!-- Contact Form -->
+            <div class="contact-form 6u 12u$(medium)">
+                <form action="mailto:info@smecesi.com" method="post" enctype="text/plain">
+                    <h2>Become a Partner</h2>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <input type="submit" value="Send Message">
+                </form>
+            </div>
+            <!-- Footer Content -->
+            <div class="footer-content 6u 12u$(medium)">
+                <h3>Contact Information</h3>
+                <p>Uffocio Croazia<br>Ufficio Italia</p>
                 <ul class="alt">
                     <li><i class="fa fa-envelope"></i> <a href="mailto:info@smecesi.com">info@smecesi.com</a></li>
-                    <li><i class="fa fa-envelope"></i> <a href="mailto:sales@smecesi.com">sales@smecesi.com</a></li>
                     <li><i class="fa fa-phone"></i> (+39) 351-3179550</li>
-                    <li><i class="fa fa-phone"></i> (+385) 95-3958291</li>
                 </ul>
-            </section>
-            <!-- Add similar sections for other footer content -->
+            </div>
         </div>
     </div>
 </footer>
